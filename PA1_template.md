@@ -85,19 +85,11 @@ Now we can look at which interval contains the highest average number of steps
 
 
 ```r
-<<<<<<< HEAD
 by_interval[[which.max(by_interval$average),1]]
 ```
 
 ```
 ## [1] 835
-=======
-which.max(by_interval$average)
-```
-
-```
-## [1] 104
->>>>>>> 11e4ef5133df9a605ba88259e7c1f31911a6199f
 ```
 
 And also what the value of that maximum is
